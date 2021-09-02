@@ -1,4 +1,7 @@
-In this assignment let's build a **Cash Withdrawal** by applying the concepts we have learned till now.
+In this assignment let's build a **Cash Withdrawal** by applying the concepts we
+have learned till now.
+
+website link: https://withdrawApp.ccbp.tech
 
 ### Refer to images below:
 
@@ -37,14 +40,17 @@ In this assignment let's build a **Cash Withdrawal** by applying the concepts we
 The app must have the following functionalities
 
 - Initially the balance should be **2000** rupees.
-- When a denomination is clicked the respective value should be deducted from the balance available.
+- When a denomination is clicked the respective value should be deducted from
+  the balance available.
 
-- The `CashWithdrawal` component receives the `denominationsList` as a prop. It consists of a list of denomination objects with the following properties in each denomination object
+- The `CashWithdrawal` component receives the `denominationsList` as a prop. It
+  consists of a list of denomination objects with the following properties in
+  each denomination object
 
-  | Key         | Data Type |
-  | ----------- | --------- |
-  | id          | Number    |
-  | value  | Number    |
+  | Key   | Data Type |
+  | ----- | --------- |
+  | id    | Number    |
+  | value | Number    |
 
 </details>
 
@@ -77,7 +83,8 @@ The app must have the following functionalities
 <details>
 <summary>Click to view Quick Tips</summary>
 
-- The `slice()` method extracts a section of a string and returns it as a new string, without modifying the original string.
+- The `slice()` method extracts a section of a string and returns it as a new
+  string, without modifying the original string.
 
   ```
   const text = "The quick brown fox";

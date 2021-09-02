@@ -8,7 +8,7 @@ class DenominationItem extends Component {
   }
 
   render() {
-    const {item, updateAmount} = this.props
+    const {item} = this.props
 
     return (
       <li>

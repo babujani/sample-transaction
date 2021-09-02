@@ -7,7 +7,7 @@ class CashWithdrawal extends Component {
     amount: 2000,
   }
 
-const  amountDeducted = item => {
+  amountDeducted = item => {
     this.setState(prevState => ({amount: prevState.amount - item}))
   }
 
@@ -29,7 +29,7 @@ const  amountDeducted = item => {
               <p className="currency">In Rupees</p>
             </div>
           </div>
-          <h1 className="draw">Withdraw</h1>
+          <p className="draw">Withdraw</p>
           <p className="choose-text">CHOOSE SUM (IN RUPEES)</p>
           <div>
             <ul className="denomination-container">
